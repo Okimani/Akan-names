@@ -4,9 +4,13 @@
     padding-right: 280px;
 }
 
+.divbkg {
+    background-color: chocolate;
+}
+
 body {
     font-family: OpenSans, sans-serif;
-    background: #787A40;
+    background: #5B6A27;
     margin: 0;
     color: white;
 
