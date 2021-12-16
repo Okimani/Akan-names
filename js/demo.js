@@ -46,7 +46,7 @@ const handleClick = () => {
         } else if (birthMonth <= 0 || birthMonth > 12) {
             alert('Please enter a valid month')
 
-        } else if (birthYear <= 1900 || birthYear > 2000) {
+        } else if (birthYear <= 1900 || birthYear > 2000) { //added to check birthyear
             alert('Please enter a valid Year')
 
         } else {
