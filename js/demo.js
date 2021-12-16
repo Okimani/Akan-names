@@ -45,6 +45,10 @@ const handleClick = () => {
             alert('Please enter a valid Day')
         } else if (birthMonth <= 0 || birthMonth > 12) {
             alert('Please enter a valid month')
+
+        } else if (birthYear <= 1900 || birthYear > 2000) {
+            alert('Please enter a valid Year')
+
         } else {
             // Execute calculation
             const akanName = akanNameCalculator(centuryVar, yearVar, birthMonth, birthDay, birthGender);
